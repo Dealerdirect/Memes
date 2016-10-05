@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Images for company approved memes. These images can be used in peer-reviews, chat channels and other places of communication.">
+
+    <title>Memes -- Working at DealerDirect</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap:400,700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://dealerdirect.github.io/Achievements/css/layout.css" />
+    <link rel="stylesheet" href="https://dealerdirect.github.io/Achievements/css/base-theme.css" />
+
+    <style type="text/css">
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            word-wrap: break-word;
+            border: 1px solid;
+        }
+
+        th {
+            color: #FFF;
+            background-color: #ABABAB;
+        }
+
+        .image {
+            font-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <menu>
+        <header>
+            <a href="{{ site.baseurl }}/">Dealerdirect</a>
+        </header>
+    </menu>
+
+    <main>
+        {{ content | replace: 'on the <a href="https://dealerdirect.github.io/memes/">DealerDirect Meme Website</a>', 'below'}}
+
+        <table>
+          <thead>
+            <tr>
+              <th>Meme</th>
+              <th>Image</th>
+              <th>MarkDown</th>
+            </tr>
+          </thead>
+          <tbody>
+        {% for meme in site.data.memes %}
+            <tr>
+              <td class="name">
+                  <a href="{{ meme.link }}" terget="_blank">
+                      {{ meme.name }}
+                  </a>
+              </td>
+              <td class="image">
+                  <a href="{{ site.baseurl }}{{ meme.image }}">
+                      <img src="{{ site.baseurl }}{{ meme.image }}"
+                        alt="{{ meme.name }} image"
+                        height="168"
+                        width="168"
+                      />
+                  </a>
+              </td>
+              <td class="markdown"><code>![{{ meme.name }}]({{ site.url }}{{ site.baseurl }}{{ meme.image }})</code></td>
+            </tr>
+        {% endfor %}
+          </tbody>
+        </table>
+</main>
+</body>
+</html>
