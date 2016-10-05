@@ -2,3 +2,7 @@
 - image: "/img/png/chan.png"
   link: "http://knowyourmeme.com/memes/my-brain-is-full-of-fuck"
   name: "My Brain is Full of Fuck"
+
+- image: "/img/svg/fry.svg"
+  link: "http://knowyourmeme.com/memes/futurama-fry-not-sure-if"
+  name: "Not Sure If..."
