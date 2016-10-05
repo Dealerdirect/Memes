@@ -42,7 +42,7 @@
     </menu>
 
     <main>
-        {{ content | replace: 'on the <a href="https://dealerdirect.github.io/memes/">DealerDirect Meme Website</a>', 'below'}}
+        {{ content | replace: 'on the <a href="https://dealerdirect.github.io/memes/">DealerDirect Meme Website</a>', 'below.'}}
 
         <table>
           <thead>
@@ -69,7 +69,7 @@
                       />
                   </a>
               </td>
-              <td class="markdown"><code>![{{ meme.name }}]({{ site.url }}{{ site.baseurl }}{{ meme.image }})</code></td>
+              <td class="markdown"><code>![{{ meme.name }}]({{ site.url }}{{ meme.image }})</code></td>
             </tr>
         {% endfor %}
           </tbody>
