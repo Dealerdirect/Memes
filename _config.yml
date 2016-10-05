@@ -1,0 +1,15 @@
+timezone: Europe/Amsterdam
+
+exclude: [Gemfile, Gemfile.lock, bin/]
+
+baseurl: /Memes
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+webrick:
+  headers:
+    # For more information on the Clacks header see: http://www.gnuterrypratchett.com/#apache
+    X-Clacks-Overhead: GNU Terry Pratchett
