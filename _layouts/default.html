@@ -61,7 +61,8 @@
             </tr>
           </thead>
           <tbody>
-        {% for meme in site.data.memes %}
+          {% assign memes = site.data.memes | sort:"name" %}
+          {% for meme in memes %}
             <tr>
               <td class="name">
                   <a href="{{ meme.link }}" terget="_blank">
