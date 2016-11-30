@@ -6,3 +6,7 @@
 - image: "/img/png/fry.png"
   link: "http://knowyourmeme.com/memes/futurama-fry-not-sure-if"
   name: "Not Sure If..."
+
+- image: "/img/png/tin.png"
+  link: "https://en.wikipedia.org/wiki/Does_exactly_what_it_says_on_the_tin"
+  name: "Does exactly what it says on the tin"
