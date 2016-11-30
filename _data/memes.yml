@@ -10,3 +10,7 @@
 - image: "/img/png/tin.png"
   link: "https://en.wikipedia.org/wiki/Does_exactly_what_it_says_on_the_tin"
   name: "Does exactly what it says on the tin"
+
+- image: "/img/png/doh.png"
+  link: "https://en.wikipedia.org/wiki/D'oh!"
+  name: "D'oh!"
