@@ -18,3 +18,7 @@
 - image: "/img/png/spoedtoeter.png"
   link: "http://sd.keepcalm-o-matic.co.uk/i-w600/spoedtoeter-fastlane-issue.jpg"
   name: "Spoedtoeter!"
+
+- image: "/img/png/nice.png"
+  link: "https://www.google.nl/search?tbm=isch&q=borat+very+nice"
+  name: "Very nice!"
