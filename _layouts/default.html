@@ -68,6 +68,11 @@
                   <a href="{{ meme.link }}" terget="_blank">
                       {{ meme.name }}
                   </a>
+                  {% if meme.description %}
+                  <p>
+                      {{ meme.description }}
+                  </p>
+                  {% endif %}
               </td>
               <td class="image">
                   <a href="{{ site.baseurl }}{{ meme.image }}">
