@@ -22,3 +22,47 @@
 - image: "/img/png/nice.png"
   link: "https://www.google.nl/search?tbm=isch&q=borat+very+nice"
   name: "Very nice!"
+
+- image: "/img/png/easter-egg.png"
+  link: "https://www.google.nl/search?q=paasei+scheldwoord"
+  name: "Easter-egg/Paas-ei (insult)"
+  description: "Insult for a person that does something stupid (from the  Dutch 'Paas-'ei)."
+
+- image: "/img/png/grammar-nazi.png"
+  link: "http://knowyourmeme.com/memes/grammar-nazi"
+  name: "Grammar Nazi"
+  description: "Insult for a pedantic person, specifically when calling out grammar mistakes."
+
+- image: "/img/png/happy.png"
+  link: "http://emojipedia.org/white-smiling-face/"
+  name: "Smiling Face"
+  description: "☺ Unicode Character 'WHITE SMILING FACE' (U+263A)"
+
+- image: "/img/png/sad.png"
+  link: "https://en.wikipedia.org/wiki/Smiley"
+  name: "Sad Face"
+  description: "☹ Unicode Character 'WHITE FROWNING FACE' (U+2639)"
+
+- image: "/img/png/magic.png"
+  link: "http://i.imgur.com/iZcUNxH.gif"
+  name: "Magic..."
+
+- image: "/img/png/patrick.png"
+  link: "https://en.wikipedia.org/wiki/Patrick_Star"
+  name: "Patrick"
+  description: "Insult for a simpleton (based on the character from the cartoon Spongebob)."
+
+- image: "/img/png/poo.png"
+  link: "http://emojipedia.org/pile-of-poo/"
+  name: "Pile of Poo"
+  description: "💩 Unicode Character 'PILE OF POO' (U+1F4A9)"
+
+- image: "/img/png/sack-of-hay.png"
+  link: "http://www.hansteeuwen.net/index.ht/teksten/hard_en_zielig/14"
+  name: "Sack-of-hay/Zak Hooi (insult)"
+  description: "Insult for a careless person (from the dutch 'Zak Hooi')."
+
+- image: "/img/png/thumb.png"
+  link: "http://emojipedia.org/thumbs-up-sign/"
+  name: "Thumbs Up"
+  description: "👍 Unicode Character 'THUMBS UP SIGN' (U+1F44D)"
