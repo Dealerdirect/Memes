@@ -66,3 +66,12 @@
   link: "http://emojipedia.org/thumbs-up-sign/"
   name: "Thumbs Up"
   description: "👍 Unicode Character 'THUMBS UP SIGN' (U+1F44D)"
+
+- image: "/img/png/mememe.png"
+  link: "http://knowyourmeme.com/memes/mememe"
+  name: "ME!ME!ME!"
+
+- image: "/img/png/shipit.png"
+  link: "https://www.quora.com/GitHub-What-is-the-significance-of-the-Ship-It-squirrel"
+  name: "Ship It Squirrel"
+  description: ":shippit:"
