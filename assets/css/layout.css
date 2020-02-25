@@ -1,0 +1,150 @@
+/********( Index )*************************************************************/
+/*
+    0. CSS Introduction
+
+    1. General Declarations
+
+    2. Site Navigation
+        2.1. Navigation Header
+        2.2. Navigation Sections
+            2.2.1. Navigation Section Items
+
+    3. Page Header
+        3.1. Page Title
+
+    4. Page Content
+        4.1. Content Area
+
+    5. Helper Classes
+
+*/
+/********( Introduction )******************************************************/
+/*
+    This document only contains Layout Rules. Layout consist of the CSS 
+    properties that have to do with the display, flow, positioning, and 
+    dimensions of elements. This includes the following:
+
+    - Positioning
+        z-index
+        position
+        top
+        right
+        bottom
+        left
+        float
+        clear
+
+    - Display & Box Model
+        display
+        overflow
+        visibility
+        box-sizing
+        width
+            min-width
+            max-width
+        height
+            min-height
+            max-height
+        margin
+              -top
+              -right
+              -bottom
+              -left
+        padding
+               -top
+               -right
+               -bottom
+               -left
+        border-width
+              -top-width
+              -right-width
+              -bottom-width
+              -left-width
+
+              -collapse
+              -spacing
+
+    Everything else does not belong here.
+
+    Semantically, one could argue that giving something a border is a matter of
+    design. Because borders do influence an elements size, `border-width` *does*
+    belong here. However, `border-color` and `border-style` do *not* belong
+    here. Instead, border style and colour should be declared in the design
+    related CSS files.
+
+    This does mean using the shorthand property for `border` is impossible.
+                                                                             BMP
+*/
+
+/*=======( General Declarations )=============================================*/
+    html, body {
+        height: 100%;
+        margin:0;
+        padding: 0;
+    }
+
+/*=======( Site Navigation )==================================================*/
+    menu {
+        width: 12em;
+        min-height: 100%;
+        padding: 0;   
+    }
+
+/*-------( Navigation Header )------------------------------------------------*/
+    menu header {
+        height: 4em;
+        text-align: center;
+    }
+
+    menu header a {
+        display: block;
+        height: 2em;
+    }
+
+/*-------( Navigation Sections )----------------------------------------------*/
+    menu h2 {
+        margin: 0;
+        padding: 0.5em 1em;
+    }
+    menu ul {
+        padding: 0;   
+    }
+
+    menu ul a {
+        display: block;
+        border-bottom-width: 0.1em; 
+    }
+
+    menu ul > li {
+    }
+
+/*.......( Navigation Section Items ).........................................*/
+    menu li li {
+        margin: 0.25em 1.25em;
+        width: 100%;
+        margin: 0;
+    }
+
+/*=======( Page Content )=====================================================*/
+    main {
+        position: absolute;
+        top: 0;
+        left: 12em;
+        min-width: calc(100% - 14em);
+        min-height: 100%;
+        padding-left: 2em;
+    }
+
+/*-------( Page Title )-------------------------------------------------------*/
+    main header {
+    }
+
+/*-------( Content Area )-----------------------------------------------------*/
+    main section {
+        margin-left: -1.2em;
+        margin-top: -0.35em;
+    }
+
+/*=======( Helper Classes )===================================================*/
+
+/*EOF*/
